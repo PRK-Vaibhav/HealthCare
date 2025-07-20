@@ -65,7 +65,7 @@ Prevention Techniques:`;
  
   return (
     <div className="container">
-      <h1>Medical Prescription Prevention Techniques Checker</h1>
+      <h1>Study about the Medicine</h1>
 
       <div className="form-group">
         <label htmlFor="prescriptionInput">Enter Medical Prescription:</label>
@@ -84,7 +84,7 @@ Prevention Techniques:`;
         onClick={handleTextSubmit}
         disabled={isLoading || !prescriptionInput.trim()}
       >
-        {isLoading ? 'Processing...' : 'Get Prevention Techniques'}
+        {isLoading ? 'Processing...' : 'Get About the Medicine'}
       </button>
 
       {errorMessage && <div className="error-box">{errorMessage}</div>}
